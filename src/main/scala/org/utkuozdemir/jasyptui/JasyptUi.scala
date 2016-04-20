@@ -19,5 +19,9 @@ object JasyptUi extends JFXApp {
     title = "Jasypt Encrypt/Decrypt Tool"
     scene = new Scene(root)
   }
+
+  stage.setMinHeight(500)
+  stage.setMinWidth(720)
+
   stage.icons.add(new Image("saru.png"))
 }
